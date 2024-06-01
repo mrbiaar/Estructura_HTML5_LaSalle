@@ -116,8 +116,8 @@
             <strong>Head Office</strong>
             <address>
                 12356 Blank Street <br/>
-                Phone: 2456-134-321<br/>
-                Email Address: info@salleurl.edu <br/>
+                Phone: <a href="tel:+2456-134-321"> 2456-134-321</a><br/>
+                Email Address: <a href="mailto:info@salleurl.edu"> info@salleurl.edu </a><br/>
             </address>
         </section>
         <br/>
@@ -126,15 +126,15 @@
             
             <form action="getform.php" method="get">
                 <label for="name">Name*:</label>
-                <input type="text" name="name" id="name"><br/>
+                <input type="text" name="name" id="name" required><br/>
                 <label for="email">Email*:</label>
-                <input type="email" name="email" id="email"><br/>
+                <input type="email" name="email" id="email" required><br/>
                 <label for="phone">Phone:</label>
                 <input type="tel" name="phone" id="phone"><br/>
                 <label for="CO-name">Company Name:</label>
                 <input type="text" name="CO-name" id="CO-name"><br/>
                 <label for="subject">Subject*:</label>
-                <input type="text" name="subject" id="subject"><br/>
+                <input type="text" name="subject" id="subject" required><br/>
                 <label for="message">Message:</label>
                 <textarea id="message"></textarea><br/>
                 <input type="submit" name="send" value="Send">
